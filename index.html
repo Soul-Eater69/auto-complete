@@ -697,12 +697,12 @@
 
         var url;
         if(source=='youtube'){
-            url = 'http://127.0.0.1:5000/getYoutubeSuggests'
+            url = 'https://web-production-6937.up.railway.app/getYoutubeSuggests'
         }
         else if(source=='google')
-            url = 'http://127.0.0.1:5000/getGoogleSuggests'
+            url = 'https://web-production-6937.up.railway.app/getGoogleSuggests'
         else
-            url = 'http://127.0.0.1:5000/getProductSuggests'
+            url = 'https://web-production-6937.up.railway.app/getProductSuggests'
         
         const response = await fetch(url,{
             method:'Post',
